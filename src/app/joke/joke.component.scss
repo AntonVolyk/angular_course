@@ -1,0 +1,19 @@
+:host {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px 0 10px 10px;
+
+  fa-icon {
+    margin-right: 10px;
+  }
+
+  fa-icon:hover {
+    cursor: pointer;
+  }
+
+  .icon-star.favorite {
+    color: #FFA500;
+  }
+}

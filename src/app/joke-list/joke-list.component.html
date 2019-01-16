@@ -1,0 +1,9 @@
+<ng-container *ngFor="let joke of jokes">
+  <app-joke
+    [joke]="joke"
+    (favoriteStatusChanged)="onFavoriteStatusChanged()"
+    (deleteJoke)="onDeleteJoke($event)">
+  </app-joke>
+</ng-container>
+
+

@@ -1,0 +1,8 @@
+<div class="joke-text">
+  {{joke.text}}
+</div>
+<div class="joke-tools">
+  <fa-icon [icon]="faTrash" [ngStyle]="{'visibility': isShowTools ? 'visible' : 'hidden'}" (click)="onDelete()"></fa-icon>
+  <fa-icon [icon]="faStar" class="icon-star" [class.favorite]="joke.isFavorite" (click)="onFavorite()"></fa-icon>
+</div>
+
